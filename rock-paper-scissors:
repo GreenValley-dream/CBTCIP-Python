@@ -1,0 +1,28 @@
+import random
+print("1.Rock\n 2.Paper\n 3.Scissor")
+y=int(input("Enter option:"))
+c=random.randint(4,6)
+if y==1:
+    if c==5:
+        print("You loose computer wins")
+    elif c==6:
+        print("You win computer has choosen scissor")
+    else:
+        print("Play again")
+if y==2:
+    if c==4:
+        print("You win computer has choosen rock")
+    elif c==6:
+        print("You loose computer has choosen scissor")
+    else:
+        print("Play again")
+if y==3:
+     if c==4:
+         print("You loose computer has choosen rock")
+     elif c==5:
+         print("You win computer has choosen paper")
+     else:
+         print("Play again")
+else:
+    print("Choose correct option")
+    
